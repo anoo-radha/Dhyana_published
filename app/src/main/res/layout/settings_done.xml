@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    tools:context=".SettingsDoneActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/timer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/layout_style"
+                android:fontFamily="sans-serif"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:text="@string/set_time"
+                android:textColor="#000000"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:ignore="UnusedAttribute" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:id="@+id/tune_text"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/layout_style"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@string/tune_message" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:id="@+id/mode_text"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/layout_style"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@string/phone_not_silenced" />
+
+            <TextView
+                android:id="@+id/hint_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_smaller_margin"
+                android:layout_weight="1"
+                android:text="@string/functions"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <Button
+                    android:id="@+id/start_button"
+                    style="@style/ButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/activity_smaller_margin"
+                    android:layout_marginRight="@dimen/activity_smaller_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:onClick="startTimer"
+                    android:text="@string/start_button" />
+
+                <Button
+                    android:id="@+id/stop_button"
+                    style="@style/ButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:onClick="stopTimer"
+                    android:text="@string/stop_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

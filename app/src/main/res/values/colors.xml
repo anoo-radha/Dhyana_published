@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6a948d</color>
+    <color name="colorPrimaryDark">#FF345C56</color>
+    <color name="colorAccent">#ffb007</color>
+    <color name="startColor">#dfefc995</color>
+    <color name="startPressedColor">#33ff3d07</color>
+    <color name="centerColor">#def5a940</color>
+    <color name="centerPressedColor">#73ff4507</color>
+    <color name="endColor">#fc9404</color>
+    <color name="endPressedColor">#e15104</color>
+    <color name="buttonTextColor">#f2000000</color>
+    <color name="background">#f5f4ae4f</color>
+    <color name="linkColor">#0664e9</color>
+    <color name="backgroundColor">#21486F</color>
+</resources>

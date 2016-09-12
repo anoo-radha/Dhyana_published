@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name" translatable="false">Dhyana</string>
+
+    <string name="text1"> Meditating DAILY is the Key  </string>
+    <string name="meditateButton"> Meditate Now </string>
+    <string name="lotus_background">lotus background</string>
+    <string name="howto">How-To</string>
+    <string name="benefits">Benefits</string>
+    <string name="links">Links</string>
+    <string name="share">Share</string>
+    <string name="set_time"> Set Time</string>
+    <string name="set_tune"> Select Tune</string>
+    <string name="set_mode"> Silent the Phone</string>
+    <string name="increment_toast"> Maximum set time can be 60 minutes</string>
+    <string name="decrement_toast"> Minimum set time can be 5 minutes</string>
+    <string name="tune_message"> Tune selected for end of Timer: %1$s</string>
+    <string name="phone_not_silenced"> Phone will NOT be silenced</string>
+    <string name="phone_silenced"> Phone will be silenced (during meditation)</string>
+    <string name="ok_button"> OK </string>
+    <string name="increment_button" translatable="false"> + </string>
+    <string name="decrement_button" translatable="false"> - </string>
+    <string name="start_button"> Start </string>
+    <string name="help"> Help </string>
+    <string name="stop_button"> Stop </string>
+    <string name="settings"> Settings </string>
+    <string name="contact"> Contact </string>
+    <string name="rating"> Rate the App </string>
+    <string name="default_time" translatable="false"> 5 </string>
+    <string name="minutes"> minutes</string>
+    <string name="references">SOME REFERENCES\n (Links to external websites for further reading)</string>
+    <string name="posture">Posture</string>
+    <string name="posture_msg">Sit comfortably yet upright on a chair or the ground. Let your hands be clasped together or in a mudra. Be Still. Physical stillness leads to Inner stillness</string>
+    <string name="let_go">Let   Go</string>
+    <string name="let_go_msg"> "Surrender. Let go of all thoughts. Be absorbed in it totally (You can achieve it with practice). "</string>
+    <string name="practice">Practice</string>
+    <string name="practice_msg">Practice Everyday. Start with 5 minutes and increase the timing as comfortable.\n\n Feel Refreshed</string>
+    <string name="benefits_start">Meditation is far more than just a spiritual practice. It increases Wisdom and gives the Big picture perspective\nThe more U MEDITATE, the more U BENEFIT !</string>
+    <string name="read_more" translatable="false"> [&#8230;] </string>
+    <string name="thanks"> Thanks for choosing Dhyana! \n (If your device supports Tamil locale, you can use the tamil version of this app too.) </string>
+    <string name="functions" translatable="false"> Functions </string>
+    <string name="features">Menu Options </string>
+    <string name="settings_help">\t(You can change these preferences, by clicking on the     icon on the top bar)</string>
+    <string name="help_detail">Share this app by pressing the Share icon so others can benefit too. If you have any suggestions/comments please contact us so we can keep improving. Please remember to rate the app.</string>
+    <string name="choose_one"> choose one </string>
+    <string name="no_mail_apps" translatable="false">No applications to support email!</string>
+    <string-array name="tune_array">
+        <item>bell</item>
+        <item>chime</item>
+        <item>om</item>
+    </string-array>
+
+    <string-array name="benefits_array">
+        <item>Increases memory and \nKeeps you super focused</item>
+        <item>Increases happiness and \nReduces stress</item>
+        <item>Reduces Inflammation and pain</item>
+        <item>Visibly healthier skin</item>
+        <item>Better sleep and Better energy</item>
+        <item>Helps reverse chronic ailments</item>
+    </string-array>
+    <string-array name="help_array">
+        <item>Press the \'MEDITATE NOW\' button, to start meditation</item>
+        <item>Press the \'START\' button to start the timer. You can stop the timer anytime by pressing the \'STOP\' button</item>
+        <item>Options like changing timer, tune and silencing the phone can be changed by selecting the Settings icon on the top. Note that the selected tune will be played only at the end of the countdowntimer</item>
+        <item>If \'Silent the Phone\' is set to \'Yes\', the phone will be silenced if it is in normal mode, only during the set duration of the timer</item>
+        <item>If the phone is not silenced after selecting \'Silent the Phone\' to \'Yes\', change the priority preference from \'allow all calls\' to \'important calls only\'</item>
+    </string-array>
+    <string-array name="features_array">
+        <item> The \'Benefits\' menu lists the Benefits of meditating everyday with scientific reasoning. The scientific reasoning is given as pop-ups</item>
+        <item>The How-To menu explains how to sit and start meditating step by step</item>
+        <item>Links to external websites related to meditation are provided in the Links menu</item>
+    </string-array>
+    <string-array name="benefits_title">
+        <item> IQ and ATTENTION </item>
+        <item> STRESS RELEIEVER </item>
+        <item> REDUCE PAIN </item>
+        <item> HEALTHIER SKIN </item>
+        <item> BETTER SLEEP </item>
+        <item> REVERSES AILMENTS</item>
+    </string-array>
+    <string-array name="benefits_description">
+        <item>Meditation synchronizes the left and right brain resulting in increased memory and IQ.
+            Also, The working size of the part of the brain, which deals with attention and processing sensory inputs is increased with meditation&lt;small>[Research done at Harvard, Yale, and MIT]&lt;\small>.</item>
+        <item>Meditation is the number one stress-reliever and especially without side effects! This is because meditation helps stimulate the fuctions of hypothalamus and pituitary gland,
+            the parts of the brain responsible for producing endorphins and serotonin, which are responsible for the overall happiness. &lt;small>[article by Robert Nash, M.D., in the \"Journal of Orthomolecular Medicine\"]&lt;/small></item>
+        <item>Reduction in the levels of pro-inflammatory genes, which correlates with faster physical recovery from any stressful situation was observed. Most interestingly,
+            the positive changes were observed in genes that are the current targets of anti-inflammatory and analgesic drugs. &lt;small>[Analyses by Institute of Biomedical Research of Barcelona in Spain]&lt;\small></item>
+        <item>The quality of skin improves by addressing it from inside out. As one enters a deep meditative state, the body automatically switches to a healing and regenerating mode.
+            Also, meditation dilates the arteries, which increase blood circulation, and the skin improves!&lt;small>[Studies by Dr. Herbert Benson of Harvard University]&lt;\small></item>
+        <item>Rest is a must for the body to function optimally and have the ability to ward off infections.  Thoughtfree Meditation gives us the same benefits of dreamless deep sleep.
+            Moreover, meditation stimulates the pineal gland (situated behind the human \‘third eye\’) which releases melatonin to help you sleep</item>
+        <item>Meditation relaxes the brain as well as the body. As the brain relaxes, the areas which control the involuntary biological functions like metabolism, heart beat and blood pressure are activated and
+            as the muscles relax, good blood circulation is promoted. Studies are done to illustrate that meditation can alleviate symptoms, treat, and even cure many chronic ailments, including cardiovascular disease, hypertension, diabetes, asthma, PMS symptoms.</item>
+    </string-array>
+    <string name="link1" translatable="false"><a href="https://yogainternational.com/article/view/your-brain-on-meditation">  Yoga International  </a></string>
+    <string name="link2" translatable="false"><a href="http://www.paranjothi.org">      Paranjothi     </a></string>
+    <string name="link3" translatable="false"><a href="https://www.brucelipton.com/books/biology-of-belief">   Biology of Belief  </a></string>
+    <string name="link4" translatable="false"><a href="http://biologyofkundalini.com/article.php?story=Bliss">  Biology of Kundalini  </a></string>
+    <string name="share_body" translatable="false"> Let me recommend you the Dhyana application. https://play.google.com/store/apps/details?id=com.anuradha.dhyana \n</string>
+    <string name="email_body" translatable="false"> Please send us your comments or any suggestions for improvement.\n Thanks</string>
+</resources>

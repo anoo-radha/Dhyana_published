@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anuradha.dhyana" >
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:logo= "@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.anuradha.dhyana.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName="com.anuradha.dhyana.SettingsDoneActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.SettingsDoneActivity" />
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.SettingsDoneActivity"
+            android:label="@string/settings"
+            android:parentActivityName="com.anuradha.dhyana.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.HowtoActivity"
+            android:label="@string/howto"
+            android:parentActivityName="com.anuradha.dhyana.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.BenefitsActivity"
+            android:label="@string/benefits"
+            android:parentActivityName="com.anuradha.dhyana.MainActivity">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="dhyana.anuradha.com" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.LinksActivity"
+            android:label="@string/links"
+            android:parentActivityName="com.anuradha.dhyana.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.anuradha.dhyana.HelpActivity"
+            android:label="@string/help"
+            android:parentActivityName="com.anuradha.dhyana.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anuradha.dhyana.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

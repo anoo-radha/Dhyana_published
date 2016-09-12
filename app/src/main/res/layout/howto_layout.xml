@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/how_to"
+    tools:context=".HowtoActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/posture_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@drawable/layout_style"
+                android:text="@string/posture"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/postureDesc"
+                style="@style/BodyStyle"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/posture_textview"
+                android:layout_marginBottom="@dimen/activity_smaller_margin"
+                android:layout_marginEnd="@dimen/activity_smaller_margin"
+                android:layout_marginRight="@dimen/activity_smaller_margin"
+                android:background="@drawable/layout_style"
+                android:text="@string/posture_msg"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/Letgo_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postureDesc"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/layout_style"
+                android:text="@string/let_go"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/letgo_desc"
+                style="@style/BodyStyle"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Letgo_textview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/activity_smaller_margin"
+                android:background="@drawable/layout_style"
+                android:text="@string/let_go_msg"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/practice_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/letgo_desc"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:background="@drawable/layout_style"
+                android:text="@string/practice"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                style="@style/BodyStyle"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/practice_textview"
+                android:layout_marginBottom="@dimen/activity_smaller_margin"
+                android:layout_marginLeft="@dimen/activity_smaller_margin"
+                android:layout_marginStart="@dimen/activity_smaller_margin"
+                android:background="@drawable/layout_style"
+                android:text="@string/practice_msg"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

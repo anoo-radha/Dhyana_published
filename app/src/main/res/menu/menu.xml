@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/howto_id"
+        android:icon="@drawable/ic_howto"
+        android:title="@string/howto"
+        app:showAsAction="ifRoom|withText">
+    </item>
+    <item android:id="@+id/share_id"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/benefits_id"
+        android:icon="@drawable/ic_benefits"
+        android:title="@string/benefits"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/links_id"
+        android:icon="@drawable/ic_link"
+        android:title="@string/links"
+        app:showAsAction="never|withText">
+    </item>
+    <item android:id="@+id/help_id"
+        android:icon="@drawable/ic_help_black"
+        android:title="@string/help"
+        app:showAsAction="never|withText">
+    </item>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    tools:context=".LinksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_smaller_margin"
+            android:text="@string/references"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/link1"
+            style="@style/LinkStyle"
+            android:text="@string/link1" />
+
+        <TextView
+            android:id="@+id/link2"
+            style="@style/LinkStyle"
+            android:text="@string/link2" />
+
+        <TextView
+            android:id="@+id/link3"
+            style="@style/LinkStyle"
+            android:text="@string/link3" />
+
+        <TextView
+            android:id="@+id/link4"
+            style="@style/LinkStyle"
+            android:text="@string/link4" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_vertical_margin" />
+    </LinearLayout>
+</ScrollView>
